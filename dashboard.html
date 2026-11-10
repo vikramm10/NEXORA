@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Overview — NEXORA</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="app-body">
+  <aside class="sidebar" id="sidebar">
+    <a class="brand side-brand" href="index.html"><span class="brand-mark">N</span>NEXORA<span class="brand-dot">.</span></a>
+    <div class="workspace-switch"><span class="workspace-icon">V</span><span><b>My workspace</b><small>Personal workspace</small></span><span class="chevron">⌄</span></div>
+    <div class="side-label">WORKSPACE</div>
+    <nav class="side-nav">
+      <button class="side-link active" data-page="Overview"><span>▦</span>Overview</button>
+      <button class="side-link" data-page="AI Agents"><span>✧</span>AI Agents <em>NEW</em></button>
+      <button class="side-link" data-page="Automation Studio"><span>⌘</span>Automation Studio</button>
+      <button class="side-link" data-page="Projects & Tasks"><span>▤</span>Projects & Tasks</button>
+      <button class="side-link" data-page="Analytics"><span>▥</span>Analytics</button>
+      <button class="side-link" data-page="Knowledge Hub"><span>▧</span>Knowledge Hub</button>
+      <button class="side-link" data-page="Social Command"><span>◉</span>Social Command</button>
+    </nav>
+    <div class="sidebar-bottom"><div class="upgrade-card"><div class="upgrade-icon">✦</div><b>Your workspace, amplified.</b><p>Discover tools designed to help you do your best work.</p><button class="text-button" id="exploreBtn">Explore NEXORA →</button></div><button class="side-link" data-page="Settings"><span>⚙</span>Settings</button><div class="user-mini"><span class="avatar">V</span><span><b>Workspace owner</b><small>Starter workspace</small></span><span class="chevron">···</span></div></div>
+  </aside>
+  <main class="main-area">
+    <header class="app-header"><button class="mobile-menu" id="menuBtn">☰</button><div class="breadcrumbs">Workspace <span>/</span> <b id="crumb">Overview</b></div><div class="header-actions"><label class="searchbox">⌕ <input id="searchInput" placeholder="Search your workspace..."></label><button class="icon-btn" title="Notifications">♧</button><span class="avatar">V</span></div></header>
+    <section class="page-content">
+      <div class="welcome-row"><div><div class="eyebrow">MONDAY, NOVEMBER 10, 2026</div><h1 id="pageTitle">Good evening. <span>Welcome to NEXORA.</span></h1><p>Your work, projects and ideas — all moving forward in one place.</p></div><button class="btn btn-primary" id="newTaskBtn">＋ Create new</button></div>
+      <div class="stat-grid">
+        <article class="stat-card"><div class="stat-top"><span>Active projects</span><span class="stat-symbol violet">▦</span></div><strong>08</strong><small><i class="positive">↗ 2</i> compared with last month</small><div class="sparkline purple"></div></article>
+        <article class="stat-card"><div class="stat-top"><span>Tasks completed</span><span class="stat-symbol blue">✓</span></div><strong>124</strong><small><i class="positive">↗ 18%</i> compared with last month</small><div class="sparkline blue-line"></div></article>
+        <article class="stat-card"><div class="stat-top"><span>Focus time</span><span class="stat-symbol green">◷</span></div><strong>32.5h</strong><small><i class="positive">↗ 6.4%</i> compared with last month</small><div class="sparkline green-line"></div></article>
+        <article class="stat-card"><div class="stat-top"><span>AI actions</span><span class="stat-symbol orange">✧</span></div><strong>246</strong><small><i class="muted">Workspace activity</i></small><div class="sparkline orange-line"></div></article>
+      </div>
+      <div class="content-grid">
+        <section class="panel activity-panel"><div class="panel-heading"><div><h2>Workspace activity</h2><p>A snapshot of your productivity</p></div><button class="subtle-button">This week⌄</button></div><div class="activity-chart"><div class="y-labels"><span>40</span><span>30</span><span>20</span><span>10</span><span>0</span></div><div class="chart-area"><div class="grid-lines"><i></i><i></i><i></i><i></i><i></i></div><div class="chart-bars"><div><i style="height:42%"></i><i style="height:26%"></i></div><div><i style="height:62%"></i><i style="height:38%"></i></div><div><i style="height:52%"></i><i style="height:30%"></i></div><div><i style="height:82%"></i><i style="height:55%"></i></div><div><i style="height:66%"></i><i style="height:44%"></i></div><div><i style="height:94%"></i><i style="height:62%"></i></div><div><i style="height:74%"></i><i style="height:48%"></i></div></div><div class="x-labels"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div></div></div><div class="chart-legend"><span><i class="legend-violet"></i> Completed tasks</span><span><i class="legend-blue"></i> Focus sessions</span></div></section>
+        <section class="panel agenda-panel"><div class="panel-heading"><div><h2>Up next</h2><p>Keep your priorities close</p></div><button class="subtle-button">View all →</button></div><div class="agenda-item"><span class="agenda-time">10:30</span><span class="agenda-dot violet-dot"></span><div><b>Review project direction</b><small>Workspace planning · 30 min</small></div></div><div class="agenda-item"><span class="agenda-time">13:00</span><span class="agenda-dot blue-dot"></span><div><b>Prepare content outline</b><small>Creator workspace · 45 min</small></div></div><div class="agenda-item"><span class="agenda-time">15:30</span><span class="agenda-dot green-dot"></span><div><b>Weekly progress review</b><small>Personal goals · 20 min</small></div></div><button class="add-agenda" id="addAgenda">＋ Add a priority</button></section>
+      </div>
+      <div class="bottom-grid"><section class="panel projects-panel"><div class="panel-heading"><div><h2>Recent projects</h2><p>Pick up where you left off</p></div><button class="subtle-button">All projects →</button></div><div class="project-row"><span class="project-icon p-violet">✧</span><div class="project-info"><b>NEXORA platform</b><small>Product development</small></div><div class="progress-wrap"><div class="progress"><i style="width:34%"></i></div><small>34%</small></div><span class="status-pill">In progress</span></div><div class="project-row"><span class="project-icon p-blue">▤</span><div class="project-info"><b>Content workspace</b><small>Creator tools</small></div><div class="progress-wrap"><div class="progress"><i style="width:68%"></i></div><small>68%</small></div><span class="status-pill">In progress</span></div><div class="project-row"><span class="project-icon p-green">◈</span><div class="project-info"><b>Business research</b><small>Strategy</small></div><div class="progress-wrap"><div class="progress"><i style="width:100%"></i></div><small>100%</small></div><span class="status-pill done">Completed</span></div></section><section class="panel ai-panel"><div class="ai-orb">✦</div><div><div class="eyebrow">NEXORA INTELLIGENCE</div><h2>Your ideas deserve momentum.</h2><p>AI assistance and connected workflows will live here as we build out your workspace.</p><button class="btn btn-primary" id="aiInfoBtn">Explore AI workspace →</button></div></section></div>
+      <div class="toast" id="toast" role="status"></div>
+    </section>
+  </main>
+  <script src="js/app.js"></script>
+</body>
+</html>
